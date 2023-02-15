@@ -6,7 +6,7 @@ import {
   MAX_FILE_OPTION_PATH_SEGMENTS,
 } from "../constants.mjs";
 
-console.log("test");
+console.log("test 2");
 
 /**
  * Returns whether the specified drive ID corresponds to the authenticated
