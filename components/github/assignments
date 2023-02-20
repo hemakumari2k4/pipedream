@@ -1,0 +1,22 @@
+//Find Lowest among n numbers.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int n,ele,i,s;
+	printf("Number of elements:");
+	scanf("%d",&n);
+	i=1;
+	s=0;
+	while(i<=n)
+	{
+		scanf("%d",&ele);
+		if(i==1)
+		s=ele;
+		if(ele<s)
+		s=ele;
+		i++;
+	}
+	printf("\nLowest=%d",s);
+getch();	
+}
